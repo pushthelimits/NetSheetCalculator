@@ -10,7 +10,7 @@ public class NetSheets
       decimal NetSheetPrice; // declare the NetSheetPrice amount
       decimal LocationMultiplier; // declare the Location Multiplier
       decimal UnitCostTotal; // delcare the Internal Marketplace Unit Cost Total from the Test Dealer quote
-      decimal SlabListPrice;  // declare the Slab List Price from the Test Dealer quote
+      decimal SlabListPrice;  // declare the Internal Marketplace Slab List Price from the Test Dealer quote
       decimal SpecialPrice; // declare the Net sheet special pricing
 
       Console.Write("Enter the Net Sheet Price: "); // prompt user
@@ -36,4 +36,4 @@ public class NetSheets
       Console.Write("\n\nPress Enter to close..."); // Interts two lines breaks and tells the user how to close the app
       Console.Read(); //keeps the console window open after it's run
    } // end Main
-} // end class NetSheetCalculator
+} // end class NetSheets
