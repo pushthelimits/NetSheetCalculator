@@ -29,9 +29,9 @@ public class NetSheets
       // read the fourth number from user
       SlabListPrice = Convert.ToDecimal(Console.ReadLine());
 
-      SpecialPrice = (SlabListPrice - (UnitCostTotal - (NetSheetPrice / LocationMultiplier)));  //add numbers
+      SpecialPrice = (SlabListPrice - (UnitCostTotal - (NetSheetPrice / LocationMultiplier)));  //calculate Net Sheet special pricing
 
-      Console.WriteLine("\n\nSpecial Net Sheet Pricing is:\n\n {0}", SpecialPrice); // display Special Net Sheet Pricing
+      Console.WriteLine("\n\nSpecial Net Sheet Pricing is:\n\n {0}", SpecialPrice); // display Net Sheet special pricing
 
       Console.Write("\n\nPress Enter to close..."); // Interts two lines breaks and tells the user how to close the app
       Console.Read(); //keeps the console window open after it's run
