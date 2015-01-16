@@ -7,11 +7,11 @@ public class NetSheets
    // Main method begins execution of C# app
    public static void Main(string[] args)
    {
-      decimal NetSheetPrice; // declare the NetSheetPrice amount
+      decimal NetSheetPrice; // declare the Net Sheet price amount
       decimal LocationMultiplier; // declare the Location Multiplier
       decimal UnitCostTotal; // delcare the Internal Marketplace Unit Cost Total from the Test Dealer quote
       decimal SlabListPrice;  // declare the Internal Marketplace Slab List Price from the Test Dealer quote
-      decimal SpecialPrice; // declare the Net sheet special pricing
+      decimal SpecialPrice; // declare the Net Sheet special pricing
 
       Console.Write("Enter the Net Sheet Price: "); // prompt user
       // read first number from user
