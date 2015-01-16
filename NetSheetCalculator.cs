@@ -36,4 +36,4 @@ public class NetSheets
       Console.Write("\n\nPress Enter to close..."); // Interts two lines breaks and tells the user how to close the app
       Console.Read(); //keeps the console window open after it's run
    } // end Main
-} // end class Addition
+} // end class NetSheetCalculator
