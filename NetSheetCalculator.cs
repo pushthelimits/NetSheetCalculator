@@ -33,7 +33,7 @@ public class NetSheets
 
       Console.WriteLine("\n\nSpecial Net Sheet Pricing is:\n\n {0}", SpecialPrice); // display Net Sheet special pricing
 
-      Console.Write("\n\nPress Enter to close..."); // Inserts two line breaks and tells the user how to close the app
-      Console.Read(); //keeps the console window open after the app is done executing
+      Console.Write("\n\nPress Enter to close..."); // inserts two line breaks and tells the user how to close the app
+      Console.Read(); // keeps the console window open after the app is done executing
    } // end Main
 } // end class NetSheets
