@@ -1,5 +1,5 @@
 ﻿// Net Sheet Calculator program
-// Calculates Net sheet special pricing
+// Calculates Net Sheet special pricing
 using System;
 
 public class NetSheets
@@ -39,7 +39,7 @@ public class NetSheets
 
       // insert two line breaks and tell the user how to continue or close the app
       Console.WriteLine("\n\nPress 'Enter' to continue or 'X' to close");
-        }
-while(Console.ReadKey(true).Key != ConsoleKey.X);
+        } //end loop
+while(Console.ReadKey(true).Key != ConsoleKey.X); // condition for the loop; it runs until the user presses the 'X' key
    } // end Main
 } // end class NetSheets
