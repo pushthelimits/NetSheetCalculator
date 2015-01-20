@@ -7,33 +7,39 @@ public class NetSheets
    // Main method begins execution of C# app
    public static void Main(string[] args)
    {
+      // loop that keeps the application running until the user chooses to close it
+      do{
       decimal netSheetPrice; // declare the Net Sheet price amount
       decimal locationMultiplier; // declare the Location Multiplier
       decimal unitCostTotal; // delcare the Internal Marketplace Unit Cost Total from the Test Dealer quote
       decimal slabListPrice;  // declare the Internal Marketplace Slab List Price from the Test Dealer quote
       decimal specialPrice; // declare the Net Sheet special pricing
 
-      Console.Write("Enter the Net Sheet Price: "); // prompt user
-      // read first number from user
+      // prompt user for the net sheet price and read the number
+      Console.Write("\n\nEnter the Net Sheet Price: ");
       netSheetPrice = Convert.ToDecimal(Console.ReadLine());
 
-      Console.Write("Enter the Dealer Location Cost Multiplier: "); //prompt user
-      // read second number from user
+      // prompt user for the dealer location cost multiplier and read the number
+      Console.Write("Enter the Dealer Location Cost Multiplier: ");
       locationMultiplier = Convert.ToDecimal(Console.ReadLine());
 
-      Console.Write("Enter the Internal MP Unit Cost Total (branch Test Dealer): "); // prompt user
-      // read third number from user
+      // prompt user for the internal mp unit cost total and read the number
+      Console.Write("Enter the Internal MP Unit Cost Total (branch Test Dealer): ");
       unitCostTotal = Convert.ToDecimal(Console.ReadLine());
 
-      Console.Write("Enter the Internal MP Slab List Price (branch Test Dealer): "); // prompt user
-      // read the fourth number from user
+      // prompt user for the internal mp slab list price and read the number
+      Console.Write("Enter the Internal MP Slab List Price (branch Test Dealer): ");
       slabListPrice = Convert.ToDecimal(Console.ReadLine());
 
-      specialPrice = (slabListPrice - (unitCostTotal - (netSheetPrice / locationMultiplier)));  //calculate Net Sheet special pricing
+      //calculate Net Sheet special pricing
+      specialPrice = (slabListPrice - (unitCostTotal - (netSheetPrice / locationMultiplier)));
 
-      Console.WriteLine("\n\nSpecial Net Sheet Pricing is:\n\n {0}", specialPrice); // display Net Sheet special pricing
+      // display Net Sheet special pricing
+      Console.WriteLine("\n\nSpecial Net Sheet Pricing is:\n\n\n {0}", Decimal.Round(specialPrice, 2));
 
-      Console.Write("\n\nPress Enter to close..."); // inserts two line breaks and tells the user how to close the app
-      Console.Read(); // keeps the console window open after the app is done executing
+      // insert two line breaks and tell the user how to continue or close the app
+      Console.WriteLine("\n\nPress 'Enter' to continue or 'X' to close");
+        }
+while(Console.ReadKey(true).Key != ConsoleKey.X);
    } // end Main
 } // end class NetSheets
