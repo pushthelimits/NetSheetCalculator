@@ -1,0 +1,5 @@
+C:\Users\Bonnie Kirkpatrick\Documents\Visual Studio 2012\Projects\NetSheetCalculator\NetSheetCalculator\bin\Debug\NetSheetCalculator2.1.exe.config
+C:\Users\Bonnie Kirkpatrick\Documents\Visual Studio 2012\Projects\NetSheetCalculator\NetSheetCalculator\bin\Debug\NetSheetCalculator2.1.exe
+C:\Users\Bonnie Kirkpatrick\Documents\Visual Studio 2012\Projects\NetSheetCalculator\NetSheetCalculator\bin\Debug\NetSheetCalculator2.1.pdb
+C:\Users\Bonnie Kirkpatrick\Documents\Visual Studio 2012\Projects\NetSheetCalculator\NetSheetCalculator\obj\Debug\NetSheetCalculator2.1.exe
+C:\Users\Bonnie Kirkpatrick\Documents\Visual Studio 2012\Projects\NetSheetCalculator\NetSheetCalculator\obj\Debug\NetSheetCalculator2.1.pdb

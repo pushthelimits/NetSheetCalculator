@@ -11,7 +11,7 @@ public class NetSheets
       do{
       decimal netSheetPrice; // declare the Net Sheet price amount
       decimal locationMultiplier; // declare the Location Multiplier
-      decimal unitCostTotal; // delcare the Internal Marketplace Unit Cost Total from the Test Dealer quote
+      decimal unitCostTotal; // declare the Internal Marketplace Unit Cost Total from the Test Dealer quote
       decimal slabListPrice;  // declare the Internal Marketplace Slab List Price from the Test Dealer quote
       decimal specialPrice; // declare the Net Sheet special pricing
 
