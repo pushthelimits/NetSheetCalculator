@@ -6,7 +6,7 @@ using System;
 
 public class NetSheets
 {
-   // Main method begins execution of C# app
+   // Main method begins execution of app
    public static void Main(string[] args)
    {
       do  // loop that keeps the application running until the user chooses to close it
@@ -19,7 +19,7 @@ public class NetSheets
 
          // prompt user for the net sheet price and read the number
          Console.Clear(); // clears the app so the user can continue
-         Console.WriteLine();
+         Console.WriteLine(); // inserts a blank line
          Console.Write("Enter the Net Sheet Price: ");
          netSheetPrice = Convert.ToDecimal(Console.ReadLine());
 
@@ -40,13 +40,18 @@ public class NetSheets
 
          // display Net Sheet special pricing
          Console.WriteLine();
-         Console.WriteLine("Special Net Sheet Pricing is:\n\n\t{0:C}\n\n", specialPrice);
+         Console.WriteLine("Special Net Sheet Pricing is:\n\n\t{0:C}", specialPrice);
 
-         // insert two line breaks and tell the user how to continue or close the app
+         // insert two blank lines
+         Console.WriteLine();
+         Console.WriteLine();
+
+         // tell the user how to continue or close the app
          Console.WriteLine("Press 'Enter' to continue or 'X' to close");
       } //end loop
 
        // condition for the loop; runs until user presses 'X' key
       while (Console.ReadKey(true).Key != ConsoleKey.X);
+
    } // end Main
 } // end class NetSheets
