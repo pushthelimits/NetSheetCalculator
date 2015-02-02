@@ -1,5 +1,7 @@
 ﻿// Net Sheet Calculator program
 // Calculates Net Sheet special pricing
+// Bonnie Kirkpatrick
+// 2/1/15
 using System;
 
 public class NetSheets
