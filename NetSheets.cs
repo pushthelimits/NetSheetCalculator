@@ -18,6 +18,7 @@ public class NetSheets
          decimal specialPrice; // declare the Net Sheet special pricing
 
          // prompt user for the net sheet price and read the number
+         Console.Clear(); // clears the app so the user can continue
          Console.WriteLine();
          Console.Write("Enter the Net Sheet Price: ");
          netSheetPrice = Convert.ToDecimal(Console.ReadLine());
@@ -39,7 +40,7 @@ public class NetSheets
 
          // display Net Sheet special pricing
          Console.WriteLine();
-         Console.WriteLine("Special Net Sheet Pricing is: {0:C}", specialPrice);
+         Console.WriteLine("Special Net Sheet Pricing is:\n\n\t{0:C}\n\n", specialPrice);
 
          // insert two line breaks and tell the user how to continue or close the app
          Console.WriteLine("Press 'Enter' to continue or 'X' to close");
